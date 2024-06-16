@@ -1,11 +1,15 @@
 import HeaderPages from "./HeaderPages";
 import FooterPages from "./FooterPages";
-import HeroSection from "./Home/HeroSection";
-import FeaturesSection from "./Home/FeaturesSection";
+import HeroSection from "../components/fragments/Home/HeroSection";
+import FeaturesSection from "../components/fragments/Home/FeaturesSection";
 
-import DreamDestinations from "./Home/DreamDestinations";
-import PartnershipSection from "./Home/PartnershipSection";
+import WhyChooseUsSection from "../components/fragments/Home/WhyChooseUsSection";
+import PartnershipSection from "../components/fragments/Home/PartnershipSection";
 
+import OurCountriesSection from "../components/fragments/Home/OurCountriesSection";
+import VisaCategorySection from "../components/fragments/Home/VisaCategorySection";
+import AvailabeCountriesSection from "../components/fragments/Home/AvailabeCountriesSection";
+import QuickOffersSection from "../components/fragments/Home/QuickOffersSection";
 const HomePages = () => {
   return (
     <>
@@ -13,8 +17,12 @@ const HomePages = () => {
       <main>
         <HeroSection />
         <FeaturesSection />
-        <DreamDestinations />
+        <WhyChooseUsSection />
         <PartnershipSection />
+        <OurCountriesSection />
+        <VisaCategorySection />
+        <AvailabeCountriesSection />
+        <QuickOffersSection />
       </main>
       <FooterPages />
     </>

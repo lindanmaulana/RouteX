@@ -1,6 +1,6 @@
 import { AiOutlineCheck } from "react-icons/ai";
 
-const CardDreamDestinations = ({icon, title, features}) => {
+const CardWhyChooseUs = ({icon, title, features}) => {
   return (
     <div className="p-5 border border-black/10 rounded-2xl">
       <div className="flex items-center justify-center mb-5">
@@ -29,4 +29,4 @@ const CardDreamDestinations = ({icon, title, features}) => {
   );
 };
 
-export default CardDreamDestinations;
+export default CardWhyChooseUs;

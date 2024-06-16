@@ -11,7 +11,7 @@ const FooterPages = () => {
           alt="Dunia"
           className="absolute right-0 w-full h-full top-56 -z-10"
         />
-        <div className="container px-4 lg:px-10">
+        <div className="container max-w-5xl px-4 lg:px-10">
           <div className="flex flex-col items-center justify-center pb-10 divide-x-2 lg:flex-row divide-white/30">
             <div className="flex items-center justify-start w-1/2 gap-x-4">
               <div className="flex p-2 rounded-full bg-secondary">
