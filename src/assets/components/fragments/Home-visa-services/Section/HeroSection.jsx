@@ -1,5 +1,5 @@
 import { FaPlay } from "react-icons/fa6";
-import Button from "../../elements/Home/Button";
+import Button from "../../../elements/Home/Button";
 const HeroSection = () => {
   return (
     <section className="flex items-end justify-center h-screen px-4 pb-4 ">
@@ -26,7 +26,9 @@ const HeroSection = () => {
                 Visa Made Easy Dreams Made Possible
               </h2>
               <div className="flex gap-x-8">
-                <Button color="text-white" fontSize="text-xs lg:text-base">Read More</Button>
+                <Button color="text-white" fontSize="text-xs lg:text-base">
+                  Read More
+                </Button>
                 <button className="flex gap-x-2">
                   <span className="flex items-center self-center justify-center w-10 h-10 text-center rounded-full bg-white/20">
                     <FaPlay className="text-xl text-white " />

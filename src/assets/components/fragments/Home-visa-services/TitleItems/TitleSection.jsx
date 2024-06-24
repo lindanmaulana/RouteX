@@ -13,6 +13,7 @@ const TitleSection = (props) => {
     titleFirst,
     titleSecond,
   } = props;
+  
   return (
     <div className={` flex flex-col ${textAlign} ${marginBottom}`}>
       <p

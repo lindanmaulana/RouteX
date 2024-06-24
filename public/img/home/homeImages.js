@@ -19,6 +19,9 @@ import workingVisa from '/img/home/visa-category/working-visa.svg'
 import layerQuickOffers from '/img/home/quick-offers/layer.svg'
 import logoQuickOffers from '/img/home/quick-offers/logo.svg'
 
+// process overview
+import layerProcessOverview from '/img/home/process-overview/layer.png'
+
 const imageWhyChooseUs = {
     globalEntry,
     imigrationAgency,
@@ -37,4 +40,8 @@ const imageQuickOffers = {
     logoQuickOffers
 }
 
-export { imageWhyChooseUs, imageVisaCategories, imageQuickOffers, logoHijau, logoPutih, logoGaris}
+const imageProcessOverview = {
+    layerProcessOverview
+}
+
+export { imageWhyChooseUs, imageVisaCategories, imageQuickOffers, imageProcessOverview, logoHijau, logoPutih, logoGaris}

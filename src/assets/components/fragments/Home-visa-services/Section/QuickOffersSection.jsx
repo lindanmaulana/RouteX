@@ -1,13 +1,13 @@
-import { imageQuickOffers } from "../../../../../public/img/home/homeImages";
-import { dataQuickOffer } from "../../../services/home.services";
-import Button from "../../elements/Home/Button";
-import CardQuickOffer from "./CardItems/CardQuickOffer";
+import { imageQuickOffers } from "../../../../../../public/img/home/homeImages";
+import { dataQuickOffer } from "../../../../services/home.services";
+import Button from "../../../elements/Home/Button";
+import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
+import CardQuickOffer from "../CardItems/CardQuickOffer";
 
 const QuickOffersSection = () => {
   return (
-    <section className="py-14">
-      <div className="container max-w-5xl">
-        <div className="flex gap-8 ">
+    <SectionHomeLayouts>
+       <div className="flex gap-8 ">
           <div className="block w-1/3 col-span-1 row-span-2 bg-gray-400 rounded-xl"></div>
           <div className="relative w-2/3 col-span-2 row-span-1">
             <div className="p-8 mb-8 bg-white rounded-xl">
@@ -35,8 +35,8 @@ const QuickOffersSection = () => {
           </div>
           <div className="col-span-2"></div>
         </div>
-      </div>
-    </section>
+    </SectionHomeLayouts>
+
   );
 };
 

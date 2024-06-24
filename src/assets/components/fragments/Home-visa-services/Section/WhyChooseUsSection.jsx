@@ -1,16 +1,15 @@
-import { TiArrowRight } from "react-icons/ti";
 import { MdCall } from "react-icons/md";
-import CardWhyChooseUs from "./CardItems/CardWhyChooseUs";
-import TitleSection from "./TitleItems/TitleSection";
-import { logoHijau } from "../../../../../public/img/home/homeImages";
-import { dataWhyChooseUs } from "../../../services/home.services";
-import Button from "../../elements/Home/Button";
+import CardWhyChooseUs from "../CardItems/CardWhyChooseUs";
+import TitleSection from "../TitleItems/TitleSection";
+import { logoHijau } from "../../../../../../public/img/home/homeImages";
+import { dataWhyChooseUs } from "../../../../services/home.services";
+import Button from "../../../elements/Home/Button";
+import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
 
 const WhyChooseUsSection = () => {
   return (
-    <section className="py-14">
-      <div className="container max-w-5xl">
-        <div className="flex flex-col-reverse gap-20 lg:flex-row">
+    <SectionHomeLayouts>
+      <div className="flex flex-col-reverse gap-20 lg:flex-row">
           <div className="grid w-full grid-cols-2 grid-rows-4 gap-4 p-2 lg:w-2/5 justify-items-center">
             <div className="relative block w-full row-span-3 border rounded-2xl border-secondary">
               <div className="absolute block w-full h-full bg-gray-400 -top-2 -left-2 rounded-2xl"></div>
@@ -57,7 +56,9 @@ const WhyChooseUsSection = () => {
             </div>
 
             <div className="flex gap-10">
-              <Button borderColor="border-secondary" fontSize="text-sm">Read More</Button>
+              <Button borderColor="border-secondary" fontSize="text-sm">
+                Read More
+              </Button>
               <div className="flex items-center justify-center">
                 <div className="p-3 mr-3 rounded-full bg-secondary">
                   <MdCall className="text-white" />
@@ -72,8 +73,7 @@ const WhyChooseUsSection = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+    </SectionHomeLayouts>
   );
 };
 

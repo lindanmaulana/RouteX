@@ -1,7 +1,7 @@
-import { logoPutih } from "../../../../../public/img/home/homeImages";
-import TitleSection from "./TitleItems/TitleSection";
+import { logoPutih } from "../../../../../../public/img/home/homeImages";
+import TitleSection from "../TitleItems/TitleSection";
 import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
-import PaginationOurCountries from "./CardItems/PaginationOurCountries";
+import PaginationOurCountries from "../CardItems/PaginationOurCountries";
 import { useState } from "react";
 const OurCountriesSection = () => {
   const [pages, setPages] = useState(1);

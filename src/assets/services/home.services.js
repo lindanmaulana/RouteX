@@ -146,4 +146,89 @@ export const dataQuickOffer = [
     }
 ]
 
+export const dataSupportingCoaching = [
+    {
+        id: 1,
+        title: "TOFEL Coaching",
+        description: "There are many variati of passages of engineer"
+    },
+    {
+        id: 2,
+        title: "IELTS Coaching",
+        description: "There are many variati of passages of engineer"
+    },
+    {
+        id: 3,
+        title: "OET Coaching",
+        description: "There are many variati of passages of engineer"
+    }
+]
+
+
+export const dataOurCoaching = [
+    {
+        id: 1,
+        title: "Courtney Henry",
+        description: "Medical Assistant"
+    },
+    {
+        id: 2,
+        title: "Courtney Henry",
+        description: "Marketing Coordinator"
+    },
+    {
+        id: 3,
+        title: "Albert FLores",
+        description: "Web Designer"
+    }
+]
+
+export const dataProcessOverview = [
+    {
+        id: "01",
+        title: "Visa Voyage Agency",
+        description: "Lorem Ipsum is simply dummy text the printing and typeser"
+    },
+    {
+        id: "02",
+        title: "Internation Access Visas",
+        description: "Lorem Ipsum is simply dummy text the printing and typeser"
+    },
+    {
+        id: "03",
+        title: "Gateway to Global Citizenshipy",
+        description: "Lorem Ipsum is simply dummy text the printing and typeser"
+    }
+]
+
+
+export const dataRecentBlogs = [
+    {
+        id: 1,
+        title: "World of Wander Discovering Diverse Landscapes",
+        description: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum",
+        time: {
+            date: "October 19, 2022",
+            role: "admin"
+        }
+    },
+    {
+        id: 2,
+        title: "Search of Serenity Tranquil Retreats and Escapes",
+        description: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum",
+        time: {
+            date: "October 19, 2022",
+            role: "admin"
+        }
+    },
+    {
+        id: 3,
+        title: "Road to Adventure Embarking on New Horizons",
+        description: "Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum",
+        time: {
+            date: "October 19, 2022",
+            role: "admin"
+        }
+    }
+]
 
