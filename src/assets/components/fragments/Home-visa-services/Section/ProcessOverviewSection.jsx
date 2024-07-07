@@ -1,17 +1,18 @@
 import {
   imageProcessOverview,
-  logoHijau,
 } from "../../../../../../public/img/home/homeImages";
-import { dataProcessOverview } from "../../../../services/home.services";
+import { logoHijau } from "../../../../../../public/img/logo";
+import { dataProcessOverview } from "../../../../services/homeVisa.services";
+import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
 import CardProcessOverview from "../CardItems/CardProcessOverview";
 import TitleSection from "../TitleItems/TitleSection";
 
 const ProcessOverviewSection = () => {
   return (
-    <section className="relative z-10 bg-white py-14">
-      <div className="container max-w-5xl">
+    <SectionHomeLayouts styleSection="relative z-10 bg-white py-14">
         <TitleSection
           textAlign="text-center"
+          order="order-last"
           justifyContentLogo="justify-center"
           icon={logoHijau}
           titleSection="Process Overview"
@@ -28,8 +29,7 @@ const ProcessOverviewSection = () => {
         <div className="grid grid-cols-3 gap-6">
           <CardProcessOverview dataCard={dataProcessOverview} />
         </div>
-      </div>
-    </section>
+    </SectionHomeLayouts>
   );
 };
 

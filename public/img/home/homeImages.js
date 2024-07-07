@@ -1,7 +1,4 @@
-// logo section
-import logoHijau from '/img/home/logo-hijau.svg'
-import logoPutih from '/img/home/logo-putih.svg'
-import logoGaris from '/img/home/logo-garis.svg'
+
 // our countries
 
 // why choose us
@@ -44,4 +41,4 @@ const imageProcessOverview = {
     layerProcessOverview
 }
 
-export { imageWhyChooseUs, imageVisaCategories, imageQuickOffers, imageProcessOverview, logoHijau, logoPutih, logoGaris}
+export { imageWhyChooseUs, imageVisaCategories, imageQuickOffers, imageProcessOverview}

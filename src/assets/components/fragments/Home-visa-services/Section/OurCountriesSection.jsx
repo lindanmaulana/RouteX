@@ -1,8 +1,9 @@
-import { logoPutih } from "../../../../../../public/img/home/homeImages";
+
 import TitleSection from "../TitleItems/TitleSection";
 import { TiArrowRight, TiArrowLeft } from "react-icons/ti";
 import PaginationOurCountries from "../CardItems/PaginationOurCountries";
 import { useState } from "react";
+import { logoPutih } from "../../../../../../public/img/logo";
 const OurCountriesSection = () => {
   const [pages, setPages] = useState(1);
   const totalPages = 5;
@@ -19,6 +20,7 @@ const OurCountriesSection = () => {
         <div className="container max-w-5xl pt-20 pb-24 ">
           <TitleSection
             icon={logoPutih}
+            order="order-last"
             titleSection="Our Countries"
             colorTitleSection="text-white"
             titleFirst="Making Memories Around"

@@ -1,9 +1,9 @@
 const SectionHomeLayouts = (props) => {
-    const { children, pt = "pt-14", pb = "pb-14" } = props
+    const { children,  styleSection, styleContainer } = props
 
   return (
-    <section className={`${pt} ${pb}`}>
-      <div className="container max-w-5xl">{children}</div>
+    <section className={`py-14 ${styleSection}`}>
+      <div className={`container max-w-5xl ${styleContainer}`}>{children}</div>
     </section>
   );
 };

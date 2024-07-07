@@ -1,4 +1,4 @@
-import { dataPartner } from "../../../../services/home.services";
+import { dataPartner } from "../../../../services/homeVisa.services";
 import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
 
 const PartnershipSection = () => {

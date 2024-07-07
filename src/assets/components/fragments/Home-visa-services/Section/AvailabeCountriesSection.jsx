@@ -1,5 +1,6 @@
-import { logoGaris } from "../../../../../../public/img/home/homeImages";
-import { dataAvailableCountries } from "../../../../services/home.services";
+
+import { logoGarisKananHijau } from "../../../../../../public/img/logo";
+import { dataAvailableCountries } from "../../../../services/homeVisa.services";
 import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
 import CardAvaliableCountries from "../CardItems/CardAvaliableCountries";
 import TitleSection from "../TitleItems/TitleSection";
@@ -9,7 +10,7 @@ const AvailabeCountriesSection = () => {
   return (
     <SectionHomeLayouts>
       <TitleSection
-        icon={logoGaris}
+        icon={logoGarisKananHijau}
         order="order-first"
         titleSection="Avaliable Countries"
         titleFirst="Urban Escapes City"
@@ -22,8 +23,8 @@ const AvailabeCountriesSection = () => {
             <TiArrowRight />
           </button>
         </div>
-        <CardAvaliableCountries countries={dataAvailableCountries} />
-      </div>
+        <CardAvaliableCountries dataCard={dataAvailableCountries} />
+        </div>
     </SectionHomeLayouts>
   );
 };

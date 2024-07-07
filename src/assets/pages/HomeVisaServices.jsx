@@ -15,11 +15,12 @@ import OurCoachingSection from "../components/fragments/Home-visa-services/Secti
 import ClientFeedbackSection from "../components/fragments/Home-visa-services/Section/ClientFeedbackSection";
 import ProcessOverviewSection from "../components/fragments/Home-visa-services/Section/ProcessOverviewSection";
 import RecentBlogsSection from "../components/fragments/Home-visa-services/Section/RecentBlogsSection";
+
 const HomeVisaServices = () => {
   return (
     <>
       <HeaderPages />
-      
+
       <main>
         <HeroSection />
         <FeaturesSection />

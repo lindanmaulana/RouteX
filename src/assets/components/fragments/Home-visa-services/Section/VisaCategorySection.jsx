@@ -1,8 +1,9 @@
-import { logoHijau } from "../../../../../../public/img/home/homeImages";
+
 import TitleSection from "../TitleItems/TitleSection";
 import CardVisaCategory from "../CardItems/CardVisaCategory";
-import { dataVisaCategory } from "../../../../services/home.services";
+import { dataVisaCategory } from "../../../../services/homeVisa.services";
 import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
+import { logoHijau } from "../../../../../../public/img/logo";
 
 const VisaCategorySection = () => {
   return (
@@ -11,6 +12,7 @@ const VisaCategorySection = () => {
         textAlign="text-center"
         justifyContentLogo="justify-center"
         icon={logoHijau}
+        order="order-last"
         titleSection="Visa Category"
         titleFirst="Seeking Adventure Thrills"
         titleSecond="and Excitement Await"

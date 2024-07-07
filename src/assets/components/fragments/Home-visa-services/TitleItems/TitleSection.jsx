@@ -1,13 +1,15 @@
 import PropTypes from "prop-types";
 const TitleSection = (props) => {
   const {
+    isIconsKiri,
+    iconSecond,
     textAlign = "text-start",
     marginBottom = "mb-14",
     justifyContentLogo = "justify-start",
     icon,
     titleSection,
     order,
-    colorTitleSection,
+    colorTitleSection = "text-primary",
     colorFirst = "text-primary",
     colorSecond = "text-primary",
     titleFirst,
@@ -19,13 +21,16 @@ const TitleSection = (props) => {
       <p
         className={`flex items-center gap-x-1 ${justifyContentLogo} mb-2`}
       >
-        <img src={icon} alt={titleSection} />
+        {isIconsKiri === true ? (
+           <img src={iconSecond} alt={titleSection} />
+        ): null}
         <span className={`text-xs ${order} ${colorTitleSection} uppercase`}>
           {titleSection}
         </span>
+        <img src={icon} alt={titleSection} />
       </p>
-      <h2 className={`text-3xl font-semibold ${colorFirst}`}>{titleFirst}</h2>
-      <h2 className={`text-3xl font-semibold ${colorSecond}`}>{titleSecond}</h2>
+      <h2 className={`text-4xl font-semibold ${colorFirst}`}>{titleFirst}</h2>
+      <h2 className={`text-4xl font-semibold ${colorSecond}`}>{titleSecond ? titleSecond : null}</h2>
     </div>
   );
 };

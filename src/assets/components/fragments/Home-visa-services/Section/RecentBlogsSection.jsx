@@ -1,14 +1,17 @@
-import { logoHijau } from "../../../../../../public/img/home/homeImages";
-import { dataRecentBlogs } from "../../../../services/home.services";
+
+import { logoHijau } from "../../../../../../public/img/logo";
+import { dataRecentBlogs } from "../../../../services/homeVisa.services";
+import SectionHomeLayouts from "../../../layouts/SectionHomeLayouts";
 import CardRecentBlogs from "../CardItems/CardRecentBlogs";
 import TitleSection from "../TitleItems/TitleSection";
 
 const RecentBlogsSection = () => {
   return (
-    <section className="pb-28 pt-14">
+    <SectionHomeLayouts styleSection="pb-28 pt-14">
       <div className="container max-w-5xl">
         <TitleSection
           icon={logoHijau}
+          order="order-last"
           titleSection="Recent Blogs"
           titleFirst="Journeys of Discovery"
           titleSecond="Uncovering Hidden"
@@ -20,7 +23,7 @@ const RecentBlogsSection = () => {
           <CardRecentBlogs dataCard={dataRecentBlogs} />
         </div>
       </div>
-    </section>
+    </SectionHomeLayouts>
   );
 };
 

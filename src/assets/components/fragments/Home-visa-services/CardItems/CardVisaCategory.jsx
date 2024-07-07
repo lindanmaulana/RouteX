@@ -4,7 +4,7 @@ const CardVisaCategory = ({ categories }) => {
   return (
     <>
       {categories.map((data, index) => (
-        <div key={index} className="grid grid-cols-2 p-5 border border-black/10 rounded-xl gap-x-10">
+        <div key={index} className="grid grid-cols-2 p-5 border hover:border-secondary border-black/10 rounded-xl gap-x-10">
           <div className="col-span-1 bg-gray-400 rounded-xl max-h-[220px]">
             <img src="" alt="" />
           </div>
